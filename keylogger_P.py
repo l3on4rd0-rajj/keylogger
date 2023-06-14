@@ -10,7 +10,7 @@ import pygetwindow as gw
 VK_CODELETTER[193] = ('?', False)  # adiciona caracteres não mapeados
 
 # Configurações do log
-log_dir = r'C:\Users\Leonardo\Documents\logs'  # Diretório base para armazenar os logs
+log_dir = r'caminho de onde vai ser armazenado o arquivo de logs'  # Diretório base para armazenar os logs
 keyboard_log_file = os.path.join(log_dir, 'keyboard_log.txt')  # Arquivo de log do teclado
 
 # Verifica se o diretório de log existe, caso contrário, cria-o
